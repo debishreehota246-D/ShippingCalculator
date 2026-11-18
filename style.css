@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 5;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
@@ -13,20 +13,20 @@ body {
 nav {
     background: #102a43;
     color: white;
-    padding: 20px 8%;
+    padding: 20px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav h2 {
-    color: #38bdf8;
+    color: #0d4962;
 }
 
 nav a {
-    color: white;
+    color: rgb(205, 114, 114);
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .hero {
@@ -46,11 +46,11 @@ nav a {
 .container {
     width: 90%;
     max-width: 550px;
-    background: white;
+    background: rgb(241, 39, 39);
     margin: 25px auto;
     padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px #00000015;
+    border-radius: 20px;
+    box-shadow: 2 5px 20px #00000015;
 }
 
 .container h2 {
@@ -105,7 +105,7 @@ button:hover {
 }
 
 #result h3 {
-    color: #075985;
+    color: #063955;
     margin-bottom: 12px;
 }
 
